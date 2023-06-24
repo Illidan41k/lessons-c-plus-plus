@@ -67,9 +67,17 @@ char SwithcFlagOff(char flags, char flag)
 char ChangeBitPositions(char var, int firstPosition, int secondPosition)
 {
 
-    var ^= (1 << firstPosition);
-    var ^= (1 << secondPosition);
+    char bit1 = (var >> firstPosition) & 1;
 
-    return var;
+    char bit2 = (var >> secondPosition) & 1;
+
+
+    char x = (bit1 ^ bit2);
+
+    x = (x << firstPosition) | (x << secondPosition);
+
+    char result = var ^ x;
+
+    return result;
 
 }
