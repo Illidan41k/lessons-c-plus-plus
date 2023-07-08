@@ -1,0 +1,3 @@
+﻿  Lesson8_Live.cpp
+D:\work\learning\Lesson8_Live\Lesson8_Live.cpp(39,22): warning C4101: circlesProcessor: неиспользованная локальная переменная
+  Lesson8_Live.vcxproj -> D:\work\learning\Lesson8_Live\x64\Debug\Lesson8_Live.exe
