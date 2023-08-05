@@ -1,0 +1,8 @@
+﻿  Lesson13_Live.cpp
+D:\work\learning\Lesson13_Live\exceptions.h(7,31): warning C4290: спецификация исключений C++ игнорируется, кроме случая, когда указывается, что функция не является __declspec(nothrow)
+  exceptions.cpp
+D:\work\learning\Lesson13_Live\exceptions.h(7,31): warning C4290: спецификация исключений C++ игнорируется, кроме случая, когда указывается, что функция не является __declspec(nothrow)
+D:\work\learning\Lesson13_Live\exceptions.cpp(15,1): warning C5043: "BestFunction": спецификация исключения не соответствует предыдущему объявлению
+D:\work\learning\Lesson13_Live\exceptions.h(7): message : см. объявление "BestFunction"
+  Создание кода...
+  Lesson13_Live.vcxproj -> D:\work\learning\Lesson13_Live\x64\Debug\Lesson13_Live.exe
